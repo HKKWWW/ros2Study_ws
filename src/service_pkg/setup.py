@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'service_node = service_pkg.service_node:main'
+            'service_node = service_pkg.service_node:main',
+            'client_node = service_pkg.client_node:main'
         ],
     },
 )
