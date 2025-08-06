@@ -6,7 +6,7 @@
 
 ## interfaces_pkg
 - 自定义消息类型
-1. 创建 .msg 与 .srv 文件，用于存放话题与服务相关消息，注意：**.msg 与 .srv 文件名必须以大学名称开头，文件内容的变量名只能是蛇形命名**
+1. 创建 .msg 与 .srv 文件，用于存放话题与服务相关消息，注意：**.msg 与 .srv 文件名必须以大写名称开头，文件内容的变量名只能是蛇形命名**
 2. 在 package.xml 文件中添加依赖项
 ```package.xml
 <build_depend>rosidl_default_generators</build_depend>
